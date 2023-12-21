@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[48,)"
+#issueTrackerURL = ""
+license = "LGPLv3"
+
+[[mods]]
+modId = "pot"
+version = "${version}"
+displayName = "pot"
+authors = "To_Craft"
+description = '''
+This adds a potion for transformation!
+'''
+#logoFile = ""
+
+[[dependencies.pot]]
+modId = "forge"
+mandatory = true
+versionRange = "[48,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pot]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pot]]
+modId = "craftedcore"
+mandatory = true
+versionRange = "[1.1,)"
+ordering = "AFTER"
+side = "BOTH"

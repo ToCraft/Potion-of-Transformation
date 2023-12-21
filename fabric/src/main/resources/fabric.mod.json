@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pot",
+  "version": "${version}",
+  "name": "Potion-Of-Transformation",
+  "description": "This adds a potion for transformation!",
+  "authors": [
+    "To_Craft"
+  ],
+  "contributors": [
+  ],
+  "license": "",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tocraft.pot.fabric.PotionOfTransformationFabric"
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+	  "pot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7+build.201",
+    "fabric": "*",
+    "fabric-api": "*",
+    "craftedcore": "*"
+  }
+}
